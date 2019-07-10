@@ -1,0 +1,13 @@
+:root {
+  scrollbar-color: rgb(255, 0, 247) rgb(17,17,17);
+}
+*{
+  scrollbar-width: thin;
+}
+@-moz-document url-prefix("about:") {
+  xul|page,
+  xul|scrollbar {
+    scrollbar-color: rgb(255, 0, 247) rgb(17,17,17);
+    scrollbar-width: thin;
+}
+}
